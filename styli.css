@@ -1,0 +1,88 @@
+
+* {
+font-family: 'Odibee Sans', cursive;}
+
+
+h1 {
+color:red;
+font-family: 'Odibee Sans', cursive;
+font-size: 8vw;
+	}
+table,th, td {
+border:1px solid black;
+margin:5%
+
+}
+
+p {
+text-align:center;
+}
+
+#palica {
+
+}
+
+#batoh {
+background-color:white;
+border:2px solid blue;
+display:inline-block;
+margin: 10%;
+padding: 10%;
+}
+
+ul {
+display:float;
+
+}
+ #motyka {
+ background-color:yellow;
+ border:1px solid white;
+ color:red;
+ display:float;
+ margin:10%;
+ padding:10%;
+ text-align:center;
+ }
+
+.b3 {
+background-color:yellow;
+ border:1px solid white;
+ color:red;
+ display:float;
+ margin:10%;
+ padding:10%;
+ text-align:center;
+	}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { 
+width :80%;
+display: flex;
+grid-area: main; 
+}
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header header'
+    'menu menu main main main main main'
+    'menu menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 3vw;
+}
+
+
+
+
+
